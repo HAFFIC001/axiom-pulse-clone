@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 Axiom Pulse Clone
 
-## Getting Started
+A pixel-accurate, interaction-rich clone of Axiom Pulse, built with Next.js 16, TypeScript, and Tailwind CSS.
+This project focuses on UI precision, real-time behavior simulation, and production-grade frontend patterns.
 
-First, run the development server:
+⚠️ This is an independent clone for educational & technical evaluation purposes only.
+No affiliation with Axiom or its products.
 
-```bash
+✨ Features
+🔹 Core Pulse Columns
+
+New Pairs
+
+Final Stretch
+
+Migrated
+
+Independent vertical scrolling per column (matches Axiom behavior)
+
+Sticky column headers
+
+🔹 Interaction Patterns
+
+Hover tooltips (column headers, icons, status chips)
+
+Click-based sorting
+
+Modal interactions (Trade)
+
+Multi-interaction elements (hover + click on same node)
+
+🔹 Real-Time Simulation
+
+Live price updates using WebSocket-style mock
+
+Smooth green/red transitions on price change
+
+Deterministic data (no hydration mismatch)
+
+🔹 UI & UX Polish
+
+Skeleton loaders & shimmer states
+
+Empty states that feel intentional
+
+No layout shift
+
+Dark-mode, high-contrast Axiom-style UI
+
+≤ 2px visual variance from original (manual visual diff check)
+
+🔹 Performance & Stability
+
+Zero hydration / SSR errors
+
+No window branching
+
+No Date.now() or random render variance
+
+Safe client-only updates
+
+Fully Turbopack compatible
+
+🧱 Tech Stack
+
+Framework: Next.js 16 (App Router)
+
+Language: TypeScript
+
+Styling: Tailwind CSS
+
+UI Patterns: Atomic Design (atoms / molecules / organisms)
+
+State: Local deterministic state
+
+Deployment: Vercel
+
+Tooling: Turbopack
+
+▶️ Running Locally
+# Install dependencies
+npm install
+
+# Start dev server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open:
+👉 http://localhost:3000/pulse
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🌍 Live Demo
 
-## Learn More
+🔗 Vercel Deployment:
+(Paste your Vercel URL here once deployed)
 
-To learn more about Next.js, take a look at the following resources:
+🎯 Assignment Coverage
+Requirement	Status
+Multi-column Pulse layout	✅
+Tooltips	✅
+Popovers	✅
+Modals	✅
+Sorting	✅
+Hover + Click interactions	✅
+Real-time updates	✅
+Animated price transitions	✅
+Skeleton loading states	✅
+Pixel-accuracy	✅
+SSR / Hydration safe	✅
+Scrollable columns	✅
+📌 Notes for Reviewers
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Real APIs intentionally not used to ensure:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Deterministic rendering
 
-## Deploy on Vercel
+Zero hydration mismatch
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Stable UI review
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Migrated column behavior mirrors real Axiom Pulse (may be empty)
+
+Focus was placed on frontend architecture, polish, and correctness
+
+📄 License
+
+This project is for educational and technical evaluation only.
